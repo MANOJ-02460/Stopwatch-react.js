@@ -1,0 +1,109 @@
+/* Write CSS here */
+@media (min-width: 768px) {
+  .app-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    height: 100vh;
+    background-size: cover;
+    padding-top: 30px;
+    padding-left: 120px;
+    max-width: 1120px;
+  }
+  .stopwatch-container {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .app-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .stopwatch-container {
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border-radius: 10px;
+  }
+}
+.heading {
+  color: #333333;
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+  width: 330px;
+}
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-timer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+}
+.timer-img {
+  height: 40px;
+  width: 30px;
+  margin-right: 10px;
+}
+.timer {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 600;
+  color: #333333;
+}
+.stopwatch {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 600;
+  color: #333333;
+  margin-top: 0;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+}
+.button {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 8px 18px 8px 18px;
+  border-radius: 8px;
+}
+.start-btn {
+  background-color: #1db05f;
+}
+.stop-btn {
+  background-color: #ef0d36;
+}
+.reset-btn {
+  background-color: #eaa800;
+}
